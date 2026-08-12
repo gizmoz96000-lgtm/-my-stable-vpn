@@ -15,7 +15,10 @@
       ],
       "transport": {
         "type": "ws",
-        "path": "/ws"
+        "path": "/ws",
+        "headers": {
+          "Host": "my-stable-vpn-production.up.railway.app"
+        }
       }
     }
   ],
@@ -25,4 +28,5 @@
       "tag": "direct"
     }
   ]
+}
 }
