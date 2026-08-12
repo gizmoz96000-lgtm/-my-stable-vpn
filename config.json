@@ -10,5 +10,10 @@
       "transport": { "type": "ws", "path": "/ws" }
     }
   ],
-  "outbounds": [{ "type": "freedom", "tag": "direct" }]
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct"
+    }
+  ]
 }
